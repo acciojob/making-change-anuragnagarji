@@ -16,6 +16,7 @@ let notes={
 	return notes;
 	//console.log(notes);
 };
+
 function change(value,note) {
  if(value>note){
 	return Math.floor(value/note);
